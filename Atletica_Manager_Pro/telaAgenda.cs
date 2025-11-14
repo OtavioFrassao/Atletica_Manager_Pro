@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Atletica_Manager_Pro
 {
-    public partial class telaAgenda : Form
+    public partial class telaAgenda : ReaLTaiizor.Forms.PoisonForm
     {
         public telaAgenda()
         {
             InitializeComponent();
+        }
+
+        private void telaAgenda_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
