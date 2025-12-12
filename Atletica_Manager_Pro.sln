@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atletica_Manager_Pro", "Atletica_Manager_Pro\Atletica_Manager_Pro.csproj", "{8D8D2D19-EA90-4FFA-8B2E-42EF70550ADE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atletica.Domain", "Atletica.Domain\Atletica.Domain.csproj", "{5FE3E321-4CBD-416F-8D5A-0DEE92C871F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atletica.Presentation", "Atletica.Presentation\Atletica.Presentation.csproj", "{292F1FFB-33F1-422B-8C35-D8223A9D6BA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atletica.Application", "Atletica.Application\Atletica.Application.csproj", "{381EE206-A20D-465F-AFDF-B5B22198BEC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atletica.Infrastructure", "Atletica.Infrastructure\Atletica.Infrastructure.csproj", "{ADF18850-54E0-49A4-8642-29F33285B32B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8D8D2D19-EA90-4FFA-8B2E-42EF70550ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D8D2D19-EA90-4FFA-8B2E-42EF70550ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D8D2D19-EA90-4FFA-8B2E-42EF70550ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D8D2D19-EA90-4FFA-8B2E-42EF70550ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE3E321-4CBD-416F-8D5A-0DEE92C871F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE3E321-4CBD-416F-8D5A-0DEE92C871F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE3E321-4CBD-416F-8D5A-0DEE92C871F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE3E321-4CBD-416F-8D5A-0DEE92C871F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{292F1FFB-33F1-422B-8C35-D8223A9D6BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292F1FFB-33F1-422B-8C35-D8223A9D6BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292F1FFB-33F1-422B-8C35-D8223A9D6BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{292F1FFB-33F1-422B-8C35-D8223A9D6BA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{381EE206-A20D-465F-AFDF-B5B22198BEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381EE206-A20D-465F-AFDF-B5B22198BEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381EE206-A20D-465F-AFDF-B5B22198BEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381EE206-A20D-465F-AFDF-B5B22198BEC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF18850-54E0-49A4-8642-29F33285B32B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF18850-54E0-49A4-8642-29F33285B32B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF18850-54E0-49A4-8642-29F33285B32B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF18850-54E0-49A4-8642-29F33285B32B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
