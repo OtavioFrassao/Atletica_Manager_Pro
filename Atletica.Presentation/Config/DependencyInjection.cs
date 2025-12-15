@@ -16,7 +16,7 @@ namespace Atletica.Presentation.Config
 
             // Configuração do DbContext com MySQL
             // IMPORTANTE: Altere a connection string conforme seu ambiente
-            var connectionString = "Server=localhost;Database=atletica_db;User=root;Password=root;";
+            var connectionString = "Server=localhost;Database=atletica_db;User=root;Password=;";
             
             services.AddDbContext<AtleticaDbContext>(options =>
                 options.UseMySql(connectionString, 
